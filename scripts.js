@@ -107,11 +107,6 @@ window.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('keypress', enterInputMode, false);
     }
 
-    document.querySelector('.js-help-button').addEventListener('click', function(evt) {
-        evt.preventDefault();
-        showModal('.js-help-modal');
-    }, false);
-
     document.querySelector('.js-share-button').addEventListener('click', function(evt) {
         evt.preventDefault();
         showModal('.js-share-modal');
